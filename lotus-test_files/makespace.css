@@ -1,0 +1,66 @@
+.topbar {
+  background: #fff;
+}
+.btn--topbar,
+.topbar .login {
+  font-size: 14px;
+  color: #89888e;
+  padding: 7px 24px 7px 22px;
+  border: 1px solid #d6d5dc;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+.btn--topbar:hover,
+.topbar .login:hover {
+  border: 1px solid #d6d5dc;
+}
+.search-box--hero-unit input[type="submit"] {
+  font-weight: 200;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.category-list-item {
+  height: 10px;
+}
+.category-list-item__link {
+  background-color: #fff;
+  border: 1px solid #52b66f;
+  color: #52b66f;
+}
+.btn--default {
+  border-width: 1px;
+  color: #52b66f;
+  text-transform: capitalize;
+}
+.btn--default:hover {
+  background: #52b66f;
+  color: #ffffff;
+}
+.btn--success:hover {
+  color: #fff;
+  box-shadow: none;
+}
+.custom-block__icon svg {
+  stroke: #3eae5f;
+}
+.custom-block__icon:hover svg,
+.custom-block__link:hover .custom-block__icon circle {
+  stroke: #3eae5f;
+}
+.footer {
+  background-color: #ebebed;
+  color: #3eae5f;
+  stroke: #3eae5f;
+}
+.footer a {
+  color: #3eae5f;
+}
+.footer a:hover {
+  color: #3eae5f;
+}
+.scroll-to-top,
+.scroll-to-top:hover {
+  color: #3eae5f;
+  border-color: #3eae5f;
+}
