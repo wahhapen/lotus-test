@@ -21,7 +21,7 @@
 }
 
 .category-list-item {
-  height: 10px;
+  height: auto;
 }
 .category-list-item__link {
   background-color: #fff;
@@ -63,4 +63,29 @@
 .scroll-to-top:hover {
   color: #3eae5f;
   border-color: #3eae5f;
+}
+.promoted-articles__list {
+  position: relative;
+}
+.promoted-articles-item--error {
+  color: red;
+}
+.preload {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  width: 25px;
+  height: 25px;
+  margin: -17px 0 0 -12px;
+  background: #3eae5f;
+  transform: rotate(45deg);
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
